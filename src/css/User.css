@@ -1,0 +1,124 @@
+.U_main_cont{
+    width: 90%;
+    margin: 50px auto;
+    /*background-color: red;*/
+    /*height: 400px;*/
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3395D2;
+    color: white;
+}
+.U_add_btn_cont{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.U_add_btn_cont button,.U_add_btn
+{
+    border: none;
+    outline: none;
+    background-color: #3395D2;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    min-width: 300px;
+    /*width: max-content;*/
+    outline: none;
+    height: max-content;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+.modal_cont
+{
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+#standard-basic
+{
+    /*margin-top: 20px;*/
+    width: 250px;
+}
+.U_add_btn
+{
+    margin-top: 20px;
+    width: 100px;
+
+}
+.U_active_td div
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 1px;
+}
+.U_active
+{
+    background-color: green;
+
+}
+.U_n_active
+{
+    background-color: red;
+
+}
+.U_pages_cont
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.U_pages_cont span
+{
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.U_selected_page
+{
+    background-color: #3395D2;
+    color: white;
+}
